@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local SDK path and secrets (never commit)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Captures, profiling
+captures/
+*.hprof
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Signing (add your own keystore rules if needed)
+*.jks
+*.keystore
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# APK / bundles (build artifacts)
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin (if added later)
+.kotlin/
